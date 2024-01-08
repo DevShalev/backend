@@ -241,7 +241,7 @@ const users =[
 
 app.use('/api/users', (req , res) => {
     return res.status(200).json({
-        data: users
+        users: users
     })
 })
 
